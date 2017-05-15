@@ -3,6 +3,8 @@
 #
 # Use text editor to edit the script and type in valid Instagram username/password
 
+import imageio
+imageio.plugins.ffmpeg.download()
 from InstagramAPI import InstagramAPI
 
 InstagramAPI = InstagramAPI("login", "password")
